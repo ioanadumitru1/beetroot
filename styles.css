@@ -1,0 +1,71 @@
+:root {
+  --white: #ebebdf;
+  --blue: #50abb0;
+  --dark-blue: #2f4156;
+  --tr-blue: #50abb030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
+h2,
+h3 {
+  padding-bottom: 6px;
+}
+
+aside li {
+  list-style: none;
+}
+
+header,
+main {
+  margin: 30px 60px 0;
+}
+
+main {
+  display: flex;
+  gap: 50px;
+}
+
+section,
+p,
+div {
+  padding-bottom: 10px;
+}
+
+aside {
+  background-color: var(--tr-blue);
+  padding: 20px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.main-section {
+  max-width: 800px;
+}
+
+.tasks {
+  margin-left: 30px;
+  padding-bottom: 4px;
+}
+
+.time-span {
+  color: var(--blue);
+}
+
+.position span {
+  color: var(--dark-blue);
+}
